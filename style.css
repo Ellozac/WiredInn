@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: 0;
-    font-family: 'JetBrains Mono';
+    font-family: 'JetBrains Mono', monospace;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
@@ -42,4 +42,39 @@ nav a:hover {
 
 header img{
     width: 100%;
+}
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    width: 450px;
+    height: 400px;
+}
+.newsCard img {
+    width: 100%;
+    height: 60%;
+}
+
+.newsCard p {
+    text-align: center;
+}
+.newsCard h3 {
+    margin: 10px;
+}
+.newsCard a { 
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #be7937;
+    border:solid #724e2c 2px;
+    border-radius: 20px;
+}
+#today {
+    margin-bottom: 40px;
 }
